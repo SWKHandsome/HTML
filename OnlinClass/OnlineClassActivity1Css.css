@@ -1,0 +1,9 @@
+body {
+    background-color: yellow;
+    font-family: Courier;
+    color: blue;
+}
+
+p{
+    border: green 1px solid; 
+}

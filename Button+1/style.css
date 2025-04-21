@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Seggoe UI',sans-serif;
+    background-color: #e0f7fe;
+    display: flex; /*flexible*/
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.tracker {
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+    border: 5px solid rgb(255, 145, 0) ;
+    
+}
+
+h2 {
+    color: #2d3436;
+}
+
+p {
+    font-size: 1em;
+    margin: 20px 0;
+}
+
+#tapBtn {
+    padding: 12px 24px;
+    font-size: 1em;
+    background-color: #00b894;
+    color: white;
+    border: 1px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+#ResetBtn {
+    padding: 12px 24px;
+    font-size: 1em;
+    background-color: #054236;
+    color: white;
+    border: 1px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+button:hover{
+    background-color: #019874;
+}
