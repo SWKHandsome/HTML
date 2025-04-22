@@ -1,0 +1,112 @@
+/* Changes th background color of the body */
+body {
+  /* background-color: lightblue;
+  opacity: 0.9; /* 透明度 */
+  background-image: url(https://preview.redd.it/i-got-bored-so-i-decided-to-draw-a-random-image-on-the-v0-4ig97vv85vjb1.png?width=1080&crop=smart&auto=webp&s=28c3ad73cff636f7ba478a0c19d734cd538949d4)
+}
+
+#welcome {
+  background-color: green; 
+  height: 90px;
+  width: 100%;
+  outline-style: solid; /* 与border不同的是outline不会影响到元素的大小 */
+  text-align: center;
+  text-decoration-line: underline;
+  text-decoration-color: red; 
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading {   /*也可以在前面加特定类别 exp:h1.heading */
+  color: red;
+  text-indent: 30px; /* 缩进 */
+}
+
+/* 全部改完
+*{
+
+}
+*/
+
+p{
+  margin-left: 50px;
+  margin-top: 50px;
+  /* margin: 50px(top) 50px(right) 50px(bottom) 50px(left); 或者 margin: 50px(包括上下左右); */;
+  border-style: solid;
+  /* border-style: dashed double dotted solid (上右下左个各个不同）*/
+  border-width: 5px;
+  /* border-width: 5px 10px 15px 20px; */
+  border-color: red;
+  /* border-color: red green blue yellow; */
+  /* border: 5px solid red; */
+  border-radius: 10px; /* 让边框变圆 */
+  padding: 10px; /* 文字与边框的距离 */
+
+
+}
+
+a { /*让link没有蓝线*/
+  text-decoration: none;
+}
+
+table, th, td{
+  border: 2px solid;
+  width: 50%;
+  border-collapse: collapse; /* 让边框合并 */
+}
+
+th {
+  height: 50px;
+}
+
+td {
+  text-align: left;
+  padding: 10px;
+}
+
+tr:hover {
+  background-color: #636363; /* 当鼠标放上去时变色 */
+}
+/* > 只改变第一个子元素 exp: h1 > b*/
+/* + 只改变第二个子元素 exp: h1 + b*/
+/* ~ 只改变第二个子元素及其后的元素 exp: h1 ~ b*/
+
+.dropdownbutton {
+  background-color: blue;
+  color: white;
+  padding: 13px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer; /* 让鼠标变成手 */
+}
+
+.dropdown {
+  position: relative; /* 让dropdown menu在dropdown button的下面 */
+  display: inline-block; 
+}
+
+.dropdown_menu {
+  /* display: ; */
+  position: absolute; /* 让dropdown menu在dropdown button的下面 */
+  background-color: lightblue;
+  min-width: 100px; 
+}
+
+.dropdown_menu a{ 
+  color: black;
+  padding: 5px 7px; 
+  text-decoration: none; /* 让dropdown menu里面的字没有下划线 */
+  display: none;  
+}
+
+.dropdown_menu a:hover { /* 让鼠标放上去时变色 */
+  background-color: white;
+}
+
+.dropdown:hover .dropdown_menu a{ /* 让鼠标放上去时显示dropdown menu */
+  display: block;  
+}
+
+.dropdown:hover  .dropdownbutton { /* 让鼠标放上去button时变色 */
+  background-color: grey;
+}

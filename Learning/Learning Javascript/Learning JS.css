@@ -1,0 +1,55 @@
+/* #countLabel{
+  display: block;
+  text-align: center;
+  font-size: 10em;
+  font-family: Helvetica;
+
+}
+
+#btnContainer{
+  text-align: center;
+  
+}
+
+.buttons{
+  padding: 10px 20px;
+  font-size: 1.5em;
+  color: white;
+  background-color: magenta;
+  border-radius: 5px;
+  cursor: pointer;  /* 光标变成手指 */
+  /* transition: background-color 0.25s;  /* 过渡效果 */
+/*}
+
+.buttons:hover{
+  background-color: magenta;
+  
+} */
+
+
+
+/* body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+#myButton{
+  font-size: 3em;
+  padding: 5px 25px;
+  border-radius: 5px;
+}
+
+.myLabels{
+  font-size: 3em;
+} */
+
+
+
+/* body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2em;
+}
+
+#mySubmit{
+  font-size: 1em;
+} */
